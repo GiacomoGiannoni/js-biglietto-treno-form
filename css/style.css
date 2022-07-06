@@ -83,8 +83,19 @@ button:hover {
     margin: 50px;
 }
 
+#ticket h2 {
+    color: black
+}
+
 #ticket .row {
+    justify-content: left;
+    
+}
+
+#ticket .passenger-wrapper {
     background-color: gray;
+    margin-right: 20px;
+    padding: 20px;
 }
 
 .pass {
@@ -92,3 +103,6 @@ button:hover {
     text-align: left;
 }
 
+th, td {
+    padding-right: 60px;
+}
