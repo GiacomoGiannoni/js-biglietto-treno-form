@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.show {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+html {
+    background-color: red;
+}
+
+h1, h2 {
+    font-weight: bolder;
+    margin: 20px 0px;
+    text-align: center;
+    color: white;
+}
+
+#data {
+    background-color: white;
+    max-width: 90%;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.col label {
+    margin-bottom: 10px;
+    color: red;
+    font-weight: bolder;
+}
+
+input {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+select {
+    border: 1px solid red;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+button {
+    padding: 2px;
+    color: red;
+    margin: 10px;
+    font-weight: bolder;
+}
+
+button:hover {
+    border-color: yellow;
+}
+
+#ticket {
+    background-color: white;
+    max-width: 90%;
+    width: 1000px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 50px;
+}
+
+#ticket .row {
+    background-color: gray;
+}
+
+.pass {
+    color: black;
+    text-align: left;
+}
+
